@@ -1,5 +1,3 @@
-docker pull wordpress
-
 FROM wordpress
 
 # Set environment variables used by the Wordpress image
