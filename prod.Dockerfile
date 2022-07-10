@@ -2,7 +2,7 @@ FROM wordpress
 
 # Set environment variables used by the Wordpress image
 # DB_USER and DB_PASSWORD are included as an example.
-ENV WORDPRESS_DB_HOST=127.0.0.1 \
+ENV WORDPRESS_DB_HOST=0.0.0.0 \
     WORDPRESS_DB_USER=wpuser \
     WORDPRESS_DB_PASSWORD=super-secret-password \
     WORDPRESS_DB_NAME=wpsite \
